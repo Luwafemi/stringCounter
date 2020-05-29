@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+  margin-left: 10px;
+}
+
+#mainbox {
+  box-shadow: -2px 2px 1px 1px rgba(176, 176, 160, 0.164);
+  position: relative;
+  background-color: transparent;
+  margin-bottom: 10px;
+  width: 80vw;
+}
+.btn {
+  display: block;
+  box-shadow: 2px 2px 1px 1px rgb(24, 24, 23);
+  text-align: end;
+}
+.btn-success:hover {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.btn-success:focus {
+  box-shadow: 2px 2px 1px 1px rgb(24, 24, 23);
+}
+#text {
+  margin: 10px 20px;
+  margin-bottom: 30px;
+}
+::placeholder {
+  font-style: italic;
+}
+
+@media (max-width: 720px) {
+  #mainbox {
+    width: 92vw;
+  }
+}
